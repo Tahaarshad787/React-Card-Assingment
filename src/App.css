@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+  }
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255); 
+  background-image: linear-gradient(to right, rgb(93, 124, 93), rgb(85, 144, 202));  /* Beautiful gradient: Green to Blue */
+  border-radius: 10px; 
+  }

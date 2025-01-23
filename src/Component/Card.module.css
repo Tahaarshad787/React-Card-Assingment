@@ -1,0 +1,61 @@
+
+.card {
+    max-width: 345px;
+    background-color: #f5f5f5;  
+    border-radius: 15px;  /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  /* Smooth hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.03);  /* Slightly scale up on hover */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);  /* Larger shadow on hover */
+  }
+  
+  /* Card media/image styling */
+  .cardImage {
+    border-top-left-radius: 15px;  /* Rounded top corners */
+    border-top-right-radius: 15px;
+  }
+  
+  /* Card content styling */
+  .cardContent {
+    padding: 16px;  /* Add padding */
+  }
+  
+  /* Typography styles */
+  .cardTitle {
+    font-weight: 500;  
+    color: #333;  /* Dark color for the title */
+  }
+  
+  .cardPrice {
+    color: #2ecc71;  /* Green color for price */
+    font-size: 1.1rem;
+  }
+  
+  .cardDesc {
+    color: #777;  /* Light gray color for description */
+    font-size: 0.9rem;
+  }
+  
+  /* Link styles */
+  .cardLink {
+    text-decoration: none;  /* Remove underline from the Link */
+  }
+  
+  /* Button styling */
+  .learnMoreBtn {
+    background-color: #3498db;  
+    color: white;
+    padding: 6px 12px;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease-in-out;  
+  }
+  
+  .learnMoreBtn:hover {
+    background-color: rgb(34, 139, 34);
+    color: black;
+    cursor: pointer;
+  }
+  
